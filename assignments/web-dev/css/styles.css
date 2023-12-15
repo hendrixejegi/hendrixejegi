@@ -1,134 +1,183 @@
 /* css reset */
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* font imports */
+
 /* brown regular*/
 @font-face {
-  font-family: "Brown-Regular";
-  src: url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.eot");
-  src: url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.woff") format("woff"), url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.svg#Brown-Regular") format("svg");
+    font-family: "Brown-Regular";
+    src: url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.eot");
+    src: url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4d3847a46ccc828409d7f134d765b8c3.svg#Brown-Regular")format("svg");
 }
+
 /* sofia-pro */
 @font-face {
-  font-family: "Sofia Pro";
-  src: url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.eot");
-  src: url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.woff") format("woff"), url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.svg#Sofia Pro") format("svg");
+    font-family: "Sofia Pro";
+    src: url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.eot");
+    src: url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a1f486ff14cc5c4f87a0e3825d152372.svg#Sofia Pro")format("svg");
 }
+
 /* body  */
+
 body {
-  background: rgba(46, 196, 182, 0.04);
-  padding: 4%;
-  display: flex;
-  justify-content: space-around;
+    background: rgba(46, 196, 182, 0.04);
+    padding: 4% ;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 /* header  */
+
 header {
-  font-family: "Brown-Regular";
-  padding-top: 15%;
+    font-family: "Brown-Regular";
+    padding-top: 15%;
 }
 
 img {
-  height: 5rem;
-  width: 5rem;
+    height: 5rem;
+    width: 5rem;
 }
 
 h1 {
-  font-size: 2.5rem;
-  line-height: 1.5;
-  font-weight: 700;
-  letter-spacing: -0.8px;
-  margin: 0.5em 0;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    margin: 0.5em 0;
 }
 
 header p {
-  color: rgb(115, 115, 115);
-  max-width: 460px;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+    color: rgba(115, 115, 115, 1);
+    max-width: 460px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 /* main  */
+
 main {
-  font-family: "Sofia Pro";
-  max-width: 580px;
-  border-radius: 6px;
-  background: #FFF;
-  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
-  padding: 3%;
+    font-family: "Sofia Pro";
+    max-width: 580px;
+    border-radius: 6px;
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+            box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    padding: 3%;
 }
 
 .userinfo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .inputbox {
-  width: calc(50% - 24px);
+    width: calc(100% / 2 - 24px);
 }
 
 .box {
-  margin-bottom: 1.875rem;
+    margin-bottom: 1.875rem;
 }
 
 .details {
-  display: block;
-  margin-bottom: 0.625rem;
+    display: block;
+    margin-bottom: 0.625rem;
 }
 
 input, select {
-  width: 100%;
-  height: 3rem;
-  padding: 2% 4%;
-  border: 1px solid rgb(240, 240, 240);
-  outline: none;
+    width: 100%;
+    height: 3rem;
+    padding: 2% 4%;
+    border: 1px solid rgba(240, 240, 240, 1);
+    outline: none;
 }
 
 input:focus, select:focus {
-  border: 1px solid rgb(46, 196, 182);
+    border: 1px solid rgba(46, 196, 182, 1);
 }
 
 button {
-  width: 100%;
-  background: #2EC4B6;
-  height: 3rem;
-  color: #FFF;
-  border: none;
-  margin-bottom: 1rem;
+    width: 100%;
+    background: #2EC4B6;
+    height: 3rem;
+    color:#FFF;
+    border: none;
+    margin-bottom: 1rem;
 }
 
 input, select, button {
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 .emphasized {
-  color: #2EC4B6;
-  text-decoration-line: underline;
+    color: #2EC4B6;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
 }
 
 /* responsive */
-@media (max-width: 576px) {
-  body {
-    flex-direction: column;
-  }
-  header {
-    padding-top: 0;
-    margin-bottom: 2.5rem;
-  }
-  .userinfo {
-    flex-direction: column;
-  }
-  .inputbox {
-    width: 100%;
-  }
-  input, select {
-    width: 100%;
-  }
-}/*# sourceMappingURL=styles.css.map */
+
+/* tablet */
+@media (max-width:786px) {
+        body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    header {
+        padding-top: 0;
+        margin-bottom: 2.5rem;
+    }
+
+    main {
+        max-width: 100%;
+    }
+}
+
+/* mobile  */
+@media (max-width:576px) {
+
+    .userinfo {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    input, select {
+        width: 100%;
+    }
+}

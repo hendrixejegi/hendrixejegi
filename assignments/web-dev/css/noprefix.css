@@ -130,15 +130,24 @@ input, select, button {
 
 /* responsive */
 
-@media (max-width:576px) {
-    body {
+/* tablet */
+@media (max-width:786px) {
+        body {
         flex-direction: column;
     }
-
+    
     header {
         padding-top: 0;
         margin-bottom: 2.5rem;
     }
+
+    main {
+        max-width: 100%;
+    }
+}
+
+/* mobile  */
+@media (max-width:576px) {
 
     .userinfo {
         flex-direction: column;
