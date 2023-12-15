@@ -106,6 +106,10 @@ input, select {
     outline: none;
 }
 
+input[type=date] {
+    -webkit-appearance: none;
+}
+
 input:focus, select:focus {
     border: 1px solid rgba(46, 196, 182, 1);
 }
