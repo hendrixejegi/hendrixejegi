@@ -134,6 +134,7 @@ button {
     color:#FFF;
     border: none;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 input, select, button {
