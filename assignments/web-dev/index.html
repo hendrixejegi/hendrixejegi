@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Dev Training</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/noprefix.css">
 </head>
 <body>
     <header>
@@ -12,7 +12,9 @@
 
         <h1>For Individuals</h1>
 
-        <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        <p  class="desktop">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+
+        <p class="mobile">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
     </header>
 
     <main>
@@ -64,8 +66,10 @@
             </div>
 
             <button type="submit">Register</button>
+            <p class="desktop">By clicking Register, you agree to our <a href="#" class="emphasized">Terms of Use</a> and our <a href="#" class="emphasized">Privacy Policy</a></p>
         </form>
-        <p>By clicking Register, you agree to our <a href="#" class="emphasized">Terms of Use</a> and our <a href="#" class="emphasized">Privacy Policy</a></p>
+
+        <p class="mobile">By clicking Register, you agree to our <a href="#" class="emphasized">Terms of Use</a> and our <a href="#" class="emphasized">Privacy Policy</a></p>
     </main>
 </body>
 </html>

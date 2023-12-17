@@ -32,6 +32,10 @@
 
 /* body  */
 
+.mobile {
+    display: none;
+}
+
 body {
     background: rgba(46, 196, 182, 0.04);
     padding: 4% ;
@@ -70,7 +74,10 @@ header p {
 /* main  */
 
 main {
-    font-family: "Sofia Pro";
+    font-family: "Sofia Pro";    
+}
+
+form {
     max-width: 580px;
     border-radius: 6px;
     background: #FFF;
@@ -153,6 +160,24 @@ input, select, button {
 
 /* mobile  */
 @media (max-width:576px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    h1 {
+        margin-bottom: 12px;
+    }
+    form {
+        margin-bottom: 24px;
+    }
+
+    main p.mobile {
+        text-align: center;
+    }
 
     .userinfo {
         flex-direction: column;
