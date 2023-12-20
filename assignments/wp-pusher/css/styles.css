@@ -5,6 +5,7 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -371,4 +372,31 @@ p.header {
 footer {
     font-size: 14px;
     text-align: center;
+}
+
+/* skip-navigation  */
+.skip-nav {
+    color: #1D2C3C;
+    font-weight: bolder;
+    background-color: #038E7D;
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    border-radius: 0 0 0.5rem 0.5rem;
+    text-decoration: none;
+    -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+            transform: translateY(-120%);
+    -webkit-transition: -webkit-transform 325ms ease-in;
+    transition: -webkit-transform 325ms ease-in;
+    -o-transition: transform 325ms ease-in;
+    transition: transform 325ms ease-in;
+    transition: transform 325ms ease-in, -webkit-transform 325ms ease-in;
+}
+
+.skip-nav:focus {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
 }
