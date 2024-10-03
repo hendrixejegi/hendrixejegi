@@ -15,5 +15,6 @@ I'm an aspiring software developer currently acquiring the skills of a front end
 
 ---
 
+[![roadmap.sh](https://roadmap.sh/card/tall/66fee0ab366148ee28462d5d?variant=dark)](https://roadmap.sh)
 | <img align="center" src="https://github-readme-stats.vercel.app/api?username=hendrixejegi&show_icons=true&include_all_commits=true&hide_border=true" alt="Hendrix's GitHub stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hendrixejegi&langs_count=8&layout=compact&hide_border=true" alt="Hendrix's GitHub stats" /> |
 | ------------- | ------------- |
