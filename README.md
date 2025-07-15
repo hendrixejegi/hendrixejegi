@@ -10,7 +10,7 @@
 
 My frontend development journey began with curiosity and a desire to create. I started by learning HTML and CSS, slowly moving into JavaScript, and eventually building full projects with React.
 
-🎓 In 2024, I completed my **Frontend Engineering Diploma at [AltSchool Africa](https://altschoolafrica.com/)**, where I built strong fundamentals and worked on projects that mimicked real-world challenges. You can view my certificate [here →](https://drive.google.com/file/d/1VLThhLWdxLZTjgnmnQvZ0H1zvjgYWbmn/view?usp=drive_link)
+🎓 In 2025, I completed my **Frontend Engineering Diploma at [AltSchool Africa](https://altschoolafrica.com/)**, where I built strong fundamentals and worked on projects that mimicked real-world challenges. You can view my certificate [here →](https://drive.google.com/file/d/1VLThhLWdxLZTjgnmnQvZ0H1zvjgYWbmn/view?usp=drive_link)
 
 Today, I’m focused on crafting clean, accessible, and responsive interfaces that not only function well but feel great to use.
 
@@ -56,4 +56,4 @@ Here are a few projects I’ve worked on or contributed to:
 
 📬 Email: thendrixejegi@email.com
 
-<p align="center"> <strong>“Code is my voice.”</strong> <br /> Let’s connect, collaborate, or just talk dev stuff! </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> </p> ```
+<p align="center"> <strong>“Code is my voice.”</strong> <br /> Let’s connect, collaborate, or just talk dev stuff! </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> </p>
