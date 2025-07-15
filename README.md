@@ -26,7 +26,7 @@ Tools:        Git & GitHub, VS Code, Netlify, Vercel, Figma
 ## 🧩 Notable Projects
 Here are a few projects I’ve worked on or contributed to:
 
-🔋 **[SolarWise](https://solar-wise-one.vercel.app/)** – A clean energy dashboard for tracking and visualizing solar energy usage.
+🔋 **[SolarWise](https://solar-wise-one.vercel.app/)** – A solar energy marketplace that connects users with reliable solar products and services.
 
 ## 📈 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=hendrixejegi&show_icons=true&theme=tokyonight" alt="Hendrix's GitHub stats" /> <br /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=hendrixejegi&theme=tokyonight" alt="GitHub Streak" /> <br /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hendrixejegi&layout=compact&theme=tokyonight" alt="Top Languages" /> </p>
@@ -56,4 +56,4 @@ Here are a few projects I’ve worked on or contributed to:
 
 📬 Email: thendrixejegi@email.com
 
-<p align="center"> <strong>“Code is my voice.”</strong> <br /> Let’s connect, collaborate, or just talk dev stuff! </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> </p>
+<p align="center"> <strong>“Code is my voice.”</strong> <br /> Let’s connect, collaborate, or just talk dev stuff! </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=hendrixejegi&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" /> </p>
